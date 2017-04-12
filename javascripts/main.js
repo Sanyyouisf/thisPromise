@@ -88,22 +88,22 @@ $(document).ready(function(){
 
 
 //Example5
-function foo (){
-	console.log("this",this);//  window 
-	console.log("a",this.a); //global
-}
+// function foo (){
+// 	console.log("this",this);//  window 
+// 	console.log("a",this.a); //global
+// }
 
-function doFoo(){
-	return fn();
-};
+// function doFoo(){
+// 	return fn();
+// };
 
-var obj = {
-	a:32,
-	foo:foo  //
-};
+// var obj = {
+// 	a:32,
+// 	foo:foo  //
+// };
 
-var a = "global";
- doFoo(obj.foo);
+// var a = "global";
+//  doFoo(obj.foo);
 
 
 
